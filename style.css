@@ -1,6 +1,169 @@
+/*css das fontes*/
+
 * {
   font-family: "Oswald", sans-serif;
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
 }
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.space-mono-regular {
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.space-mono-bold {
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.space-mono-regular-italic {
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.space-mono-bold-italic {
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  font-style: italic;
+}
+
+
+/*css da pagina de contatos*/
+header{
+
+  background-color: rgb(82, 2, 82);
+  border-radius: 15px;
+  margin: auto ;
+
+}
+
+.titleForms{
+
+  font-size: 25px;
+  text-align: center;
+  font-family: bebas neue;
+
+}
+
+Form{
+
+  max-width: 400px;
+  margin: 30px auto;
+  padding: 20px;
+  border: 10px;
+  border-radius: 15px;
+  background-color: white;
+  font-family: oswald;
+
+}
+
+form label{
+
+  display: block;
+  margin-bottom: 6px;
+  font-weight: bold;
+  color: #333;
+
+}
+
+form input[type="text"], 
+form input[type="email"]{
+
+    width: 100%;
+    padding: 8px 10px;
+    margin-bottom: 15px;
+    border: 1,5px solid #9600b4;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+
+}
+
+form input[type="text"]:focus,
+form input[type="email"]:focus {
+
+  border-color: blueviolet;
+  outline: none;
+
+}
+
+form input[type="submit"]{
+
+background-color: blueviolet;
+color: white;
+padding: 10px 15px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+font-weight: bold;
+font-size: 16px;
+transition: background-color 0.3s ease;
+
+}
+
+form input  [type="submit"]:hover{
+
+  background-color: #9600b4;
+
+}
+
+/*css index*/
+img{
+
+  margin-top: 10px;
+  width: 112px;
+  height: auto;
+  border-radius: 50%;
+
+}
+
+body{
+
+  background-image: url(./images/bg-desktop_refined.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+
+  
+}
+
+#container{
+
+  width: 100% ;
+  background-color: rgba(88, 87, 87, 0.336);
+  max-width: 588px ;
+  margin: 56px auto 0px;
+  padding: 0 24px ;
+  border: solid;
+  border-radius: 15px;
+
+}
+
+#profile p{
+
+  font-weight: 500;
+  line-height: 20PX;
+  margin-top: 2PX ;
+
+}
+
+#switch{
+
+  position:relative;
+  width: 64px;
+  margin: 4px auto;
+
+}
+
+
+
